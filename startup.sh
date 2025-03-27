@@ -32,3 +32,5 @@ ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
 # Start Nginx
 service nginx start
+
+php /home/site/wwwroot/artisan l5-swagger:publish
